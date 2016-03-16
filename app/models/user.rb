@@ -10,5 +10,6 @@ class User < ActiveRecord::Base
       :token => auth["credentials"]["token"]
     )
   end
+
 end
 
